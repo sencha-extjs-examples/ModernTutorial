@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700");
+
+/* VP Modal Mask */
+#ext-viewport > .x-body > .x-mask {
+    opacity: .4;
+    background-color: #fff;
+}
+
+/* Buttons */
+.clear-white {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.clear-white .x-button-icon {
+    color: white;
+}
+
+.clear-white.x-button.x-button-pressing,
+.clear-white.x-button.x-button-pressed {
+    color: #919191;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.clear-white.x-button.x-button-pressing .x-button-icon,
+.clear-white.x-button.x-button-pressed .x-button-icon {
+    color: #919191;
+}
+
+/* Hero Card */
+.hero-card {
+    background: #3e536d url(https://s3.amazonaws.com/uploads.hipchat.com/9804/276555/WpAlblU22yspraZ/hero-bg3.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.hero-card-title {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.hero-card-sub-title {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: Raleway;
+    font-weight: 300;
+}
+
+.get-started {
+    font-size: 2em;
+    opacity: .3;
+    border-radius: 32px;
+    background: #1d1d1d;
+    color: #bdbdbd;
+}
+
+.get-started .x-button-icon {
+    color: #777777;
+}
+
+.dev-count {
+    color: white;
+    font-size: 16px;
+}
+
+.dev-count-label {
+    color: #bdbdbd;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+/* Filter Form */
+.filter-form {
+    z-index: 10;
+}
+
+.filter-form-left {
+    border-right: 1px solid #e6e6e6 !important;
+}
+
+/* Devs List */
+
+.list-item-dev {
+    display: -webkit-box;
+    display: flex;    
+    -webkit-flex-direction: row;
+    flex-direction: row;
+
+}
+.list-item-image {
+    border: 3px solid #efefef;
+    float: left;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: 10px 20px 0 0;
+}
+
+.list-item-name {
+    font-size: 24px;
+    line-height: 32px;
+    color: #404040;
+}
+
+.list-item-skill-tag,
+.dev-card-skill-tag {
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 3px;
+    background-color: #ef359a;
+    color: #f5f5f5;
+    margin: 6px 6px 0 0;
+    font-family: Lato;
+}
+
+/* Dev Card */
+.dev-card-image {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    border: 6px solid #bfbfbf;
+}
+
+.dev-card-name {
+    font-size: 24px;
+    line-height: 32px;
+    color: #8a8a8a;
+}
+
+.dev-card-info,
+.dev-card-contact {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.dev-card-divider {
+    background-image: repeating-linear-gradient(45deg,#fafafa,#fafafa 5px,#dcdcdc 5px,#dcdcdc 7px);
+}
+
+.dev-card-skills-ct {
+    background-color: #efefef;
+    padding: 8px 4px;
+    margin-top: 16px;
+}
+/* .dev-card-skill-tag see above */
+
