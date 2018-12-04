@@ -22,7 +22,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
         },
         "nat": "IR",
-        "skills": ['Ext JS', 'Touch', 'Architect']
+        "skills": ["Ext JS", "Touch", "Architect"]
     }, {
         "gender": "female",
         "name": {
@@ -46,7 +46,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
         },
         "nat": "DK",
-        "skills": ['Ext JS']
+        "skills": ["Ext JS"]
     }, {
         "gender": "male",
         "name": {
@@ -70,7 +70,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/63.jpg"
         },
         "nat": "AU",
-        "skills": ['Ext JS', 'Themer', 'Inspector']
+        "skills": ["Ext JS", "Themer", "Inspector"]
     }, {
         "gender": "female",
         "name": {
@@ -94,7 +94,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/34.jpg"
         },
         "nat": "IE",
-        "skills": ['Touch', 'Architect', 'Themer', 'Inspector']
+        "skills": ["Touch", "Architect", "Themer", "Inspector"]
     }, {
         "gender": "female",
         "name": {
@@ -118,7 +118,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
         },
         "nat": "ES",
-        "skills": ['Touch', 'Architect']
+        "skills": ["Touch", "Architect"]
     }, {
         "gender": "female",
         "name": {
@@ -142,7 +142,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/43.jpg"
         },
         "nat": "TR",
-        "skills": ['Ext JS', 'Inspector']
+        "skills": ["Ext JS", "Inspector"]
     }, {
         "gender": "female",
         "name": {
@@ -166,7 +166,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/64.jpg"
         },
         "nat": "CA",
-        "skills": ['Architect', 'Themer']
+        "skills": ["Architect", "Themer"]
     }, {
         "gender": "male",
         "name": {
@@ -190,7 +190,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
         },
         "nat": "GB",
-        "skills": ['Touch', 'Architect']
+        "skills": ["Touch", "Architect"]
     }, {
         "gender": "male",
         "name": {
@@ -214,7 +214,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg"
         },
         "nat": "IE",
-        "skills": ['Ext JS']
+        "skills": ["Ext JS"]
     }, {
         "gender": "female",
         "name": {
@@ -238,7 +238,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
         },
         "nat": "US",
-        "skills": ['Touch', 'Architect', 'Inspector']
+        "skills": ["Touch", "Architect", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -262,7 +262,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/81.jpg"
         },
         "nat": "IE",
-        "skills": ['Ext JS', 'Inspector']
+        "skills": ["Ext JS", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -286,7 +286,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
         },
         "nat": "ES",
-        "skills": ['Architect', 'Inspector']
+        "skills": ["Architect", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -310,7 +310,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
         },
         "nat": "CH",
-        "skills": ['Ext JS', 'Touch', 'Architect', 'Themer', 'Inspector']
+        "skills": ["Ext JS", "Touch", "Architect", "Themer", "Inspector"]
     }, {
         "gender": "female",
         "name": {
@@ -334,7 +334,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
         },
         "nat": "ES",
-        "skills": ['Ext JS', 'Touch', 'Architect', 'Themer']
+        "skills": ["Ext JS", "Touch", "Architect", "Themer"]
     }, {
         "gender": "male",
         "name": {
@@ -358,7 +358,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/60.jpg"
         },
         "nat": "ES",
-        "skills": ['Ext JS', 'Architect']
+        "skills": ["Ext JS", "Architect"]
     }, {
         "gender": "male",
         "name": {
@@ -382,7 +382,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/81.jpg"
         },
         "nat": "TR",
-        "skills": ['Architect', 'Inspector']
+        "skills": ["Architect", "Inspector"]
     }, {
         "gender": "female",
         "name": {
@@ -406,7 +406,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/86.jpg"
         },
         "nat": "DE",
-        "skills": ['Touch']
+        "skills": ["Touch"]
     }, {
         "gender": "female",
         "name": {
@@ -430,7 +430,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/20.jpg"
         },
         "nat": "CH",
-        "skills": ['Ext JS', 'Themer', 'Inspector']
+        "skills": ["Ext JS", "Themer", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -454,7 +454,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
         },
         "nat": "DK",
-        "skills": ['Architect']
+        "skills": ["Architect"]
     }, {
         "gender": "male",
         "name": {
@@ -478,7 +478,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/83.jpg"
         },
         "nat": "BR",
-        "skills": ['Touch']
+        "skills": ["Touch"]
     }, {
         "gender": "male",
         "name": {
@@ -502,7 +502,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
         },
         "nat": "NL",
-        "skills": ['Ext JS']
+        "skills": ["Ext JS"]
     }, {
         "gender": "male",
         "name": {
@@ -526,7 +526,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
         },
         "nat": "US",
-        "skills": ['Ext JS', 'Inspector']
+        "skills": ["Ext JS", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -550,7 +550,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
         },
         "nat": "FR",
-        "skills": ['Ext JS', 'Themer', 'Inspector']
+        "skills": ["Ext JS", "Themer", "Inspector"]
     }, {
         "gender": "female",
         "name": {
@@ -574,7 +574,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/women/86.jpg"
         },
         "nat": "DK",
-        "skills": ['Ext JS', 'Themer']
+        "skills": ["Ext JS", "Themer"]
     }, {
         "gender": "male",
         "name": {
@@ -598,7 +598,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
         },
         "nat": "DK",
-        "skills": ['Ext JS', 'Inspector']
+        "skills": ["Ext JS", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -622,7 +622,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
         },
         "nat": "CA",
-        "skills": ['Touch']
+        "skills": ["Touch"]
     }, {
         "gender": "male",
         "name": {
@@ -646,7 +646,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/47.jpg"
         },
         "nat": "IR",
-        "skills": ['Ext JS', 'Themer', 'Inspector']
+        "skills": ["Ext JS", "Themer", "Inspector"]
     }, {
         "gender": "male",
         "name": {
@@ -670,7 +670,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/62.jpg"
         },
         "nat": "TR",
-        "skills": ['Touch', 'Architect']
+        "skills": ["Touch", "Architect"]
     }, {
         "gender": "male",
         "name": {
@@ -694,7 +694,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg"
         },
         "nat": "BR",
-        "skills": ['Ext JS', 'Architect']
+        "skills": ["Ext JS", "Architect"]
     }, {
         "gender": "male",
         "name": {
@@ -718,7 +718,7 @@
             "thumbnail": "https://randomuser.me/api/portraits/thumb/men/96.jpg"
         },
         "nat": "ES",
-        "skills": ['Ext JS']
+        "skills": ["Ext JS"]
     }],
     "info": {
         "seed": "rwc",
