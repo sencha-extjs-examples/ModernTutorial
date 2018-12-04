@@ -1,21 +1,13 @@
 {
-    "name": "MyApp",
-    "namespace": "MyApp",
-    "version": "1.0.0.0",
-    "framework": "ext",
-
     /**
-     * The list of required packages (with optional versions; default is "latest").
-     *
-     * For example,
-     *
-     *      "requires": [
-     *          "charts"
-     *      ]
+     * The application's namespace.
      */
-    "requires": [
-        "font-awesome"
-    ],
+    "name": "MyApp",
+    
+    /**
+     * The version of the application.
+     */
+    "version": "1.0.0.0",
 
     /**
      * The relative path to the application's markup file (html, jsp, asp, etc.).
@@ -29,8 +21,7 @@
      * application resides (the same folder in which this file is located).
      */
     "classpath": [
-        "app",
-        "${toolkit.name}/src"
+        "app"
     ],
 
     /**
@@ -41,15 +32,44 @@
      * in the "override" property is also included.
      */
     "overrides": [
-        "overrides",
-        "${toolkit.name}/overrides"
+        "overrides"
     ],
+
+    /**
+     * The Sencha Framework for this application: "ext" or "touch".
+     */
+    "framework": "ext",
+    
+    
+    /**
+     * The toolkit to use. Select either "classic" or "modern".
+     */
+    "toolkit": "modern",
+    
+    
+    
+    /**
+     * The name of the theme for this application.
+     */
+    
+    "theme": "theme-material",
+    
+    
+    /**
+     * The list of required packages (with optional versions; default is "latest").
+     *
+     * For example,
+     *
+     *      "requires": [
+     *          "charts"
+     *      ]
+     */
+    "requires": [],
 
     /**
      * Fashion build configuration properties.
      */
     "fashion": {
-        "missingParameters": "error",
         "inliner": {
             /**
              * Disable resource inliner. Production builds enable this by default.
@@ -86,6 +106,12 @@
          *      }
          *
          */
+         
+        "generated": {
+            "var": "sass/save.scss",
+            "src": "sass/save"
+        },
+        
 
         /**
          * Comma-separated list of files or folders containing extra Sass. These
@@ -107,8 +133,7 @@
          *      +-----------------+
          */
         "etc": [
-            "sass/etc/all.scss",
-            "${toolkit.name}/sass/etc/all.scss"
+            "sass/etc/all.scss"
         ],
 
         /**
@@ -133,9 +158,7 @@
          */
         "var": [
             "sass/var/all.scss",
-            "sass/var",
-            "${toolkit.name}/sass/var/all.scss",
-            "${toolkit.name}/sass/var"
+            "sass/var"
         ],
 
         /**
@@ -155,8 +178,7 @@
          *      +-----------------+
          */
         "src": [
-            "sass/src",
-            "${toolkit.name}/sass/src"
+            "sass/src"
         ]
     },
 
@@ -203,34 +225,15 @@
      */
     "js": [
         {
+            "path": "${framework.dir}/build/ext-modern-all-debug.js"
+        },
+        {
             "path": "app.js",
             "bundle": true
         }
     ],
 
-    /**
-     * Settings specific to classic toolkit builds.
-     */
-    "classic": {
-        "js": [
-            // Remove this entry to individually load sources from the framework.
-            {
-                "path": "${framework.dir}/build/ext-all-rtl-debug.js"
-            }
-        ]
-    },
-
-    /**
-     * Settings specific to modern toolkit builds.
-     */
-    "modern": {
-        "js": [
-            // Remove this entry to individually load sources from the framework.
-            {
-                "path": "${framework.dir}/build/ext-modern-all-debug.js"
-            }
-        ]
-    },
+    
 
     /**
      * List of all CSS assets in the right inclusion order.
@@ -309,13 +312,13 @@
             "type": "yui"
         }
     },
-
+    
     /**
      * Settings specific to testing builds.
      */
     "testing": {
     },
-
+    
     /**
      * Settings specific to development builds.
      */
@@ -335,7 +338,7 @@
      * form:
      *
      *      "bootstrap": {
-     *          "base": "${app.dir}",
+     *          "base": "${app.dir},
      *          "manifest": "bootstrap.json",
      *          "microloader": "bootstrap.js",
      *          "css": "bootstrap.css"
@@ -354,9 +357,7 @@
      */
     "bootstrap": {
         "base": "${app.dir}",
-
-        "manifest": "${build.id}.json",
-
+        
         "microloader": "bootstrap.js",
         "css": "bootstrap.css"
     },
@@ -376,12 +377,7 @@
      *              "enable": false
      *          },
      *          "css": "${app.output.resources}/${app.name}-all.css",
-     *          "js": {
-     *              "path": "app.js",
-     *              // This setting constrols the output language level.  Set to 'ES6' to 
-     *              // disable the transpiler
-     *              "version": "ES5"
-     *          },
+     *          "js": "app.js",
      *          "microloader": {
      *              "path": "microloader.js",
      *              "embed": true,
@@ -406,21 +402,15 @@
      *      }
      *
      */
-
+    
     "output": {
         "base": "${workspace.build.dir}/${build.environment}/${app.name}",
-        "page": "index.html",
-        "manifest": "${build.id}.json",
-        "js": "${build.id}/app.js",
         "appCache": {
             "enable": false
-        },
-        "resources": {
-            "path": "${build.id}/resources",
-            "shared": "resources"
         }
     },
-
+    
+    
     /**
     * Controls for localStorage caching
     *   "cache": {
@@ -436,11 +426,12 @@
     *       "deltas": "deltas"
     *   }
     */
-
+    
     "cache": {
         "enable": false,
-        "deltas": "${build.id}/deltas"
+        "deltas": true
     },
+    
 
     /**
      * Used to automatically generate cache.manifest (HTML 5 application cache manifest)
@@ -473,12 +464,6 @@
         {
             "path": "resources",
             "output": "shared"
-        },
-        {
-            "path": "${toolkit.name}/resources"
-        },
-        {
-            "path": "${build.id}/resources"
         }
     ],
 
@@ -487,8 +472,13 @@
      * generated inside this directory must be kept intact for proper generation of
      * deltas between updates.
      */
+    
+    "archivePath": "archive",
+    
 
-    "archivePath": "archive/${build.id}",
+
+    "slicer": null,
+
 
     /**
      * Build Profiles. This object's properties are each a "build profile". You can
@@ -497,44 +487,9 @@
      * selecting the desired build profile by setting "Ext.manifest" to one of these
      * names.
      *
-     *     "builds": {
-     *         "classic": {
-     *             "toolkit": "classic",
-     *             "theme": "theme-neptune"
-     *         },
-     *
-     *         "modern": {
-     *             "toolkit": "modern",
-     *             "theme": "theme-neptune"
-     *         }
-     *     }
-     *
      */
-
-    "builds": {
-        "classic": {
-            "toolkit": "classic",
-            "theme": "theme-triton",
-            "sass": {
-                "generated": {
-                    "var": "classic/sass/save.scss",
-                    "src": "classic/sass/save"
-                }
-            }
-        },
-
-        "modern": {
-            "toolkit": "modern",
-            "theme": "theme-material",
-            "sass": {
-                "generated": {
-                    "var": "modern/sass/save.scss",
-                    "src": "modern/sass/save"
-                }
-            }
-        }
-    },
-
+    
+    
     /**
      * File / directory name patttern to ignore when copying to the builds. Must be a
      * valid regular expression.
